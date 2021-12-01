@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: lightgrey;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+.row {
+  display: flex;
+}
+.col-3 {
+  flex: 0 0 25%;
+}
+.example-1 {
+  background-color: lightsalmon;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.541);
+  padding: 1rem;
+}
+.example-2 {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid lightsalmon;
+}
