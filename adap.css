@@ -12,7 +12,16 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
+.card {
+  border: 1px solid lightslategray;
+  border-radius: 0.5rem;
+  padding: 5px;
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 1s;
+}
 [class^="col"] {
   padding: 0.5rem;
 }
